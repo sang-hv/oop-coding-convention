@@ -2,9 +2,11 @@
 
 Tất cả phải được viết bằng tiếng Anh
 
-1. Class:
-  - Tên của class nên được đặt bằng chữ cái viết hoa theo quy tắc ***`CamelCase`***.
+1. Class, Abstract:
+  - Tên của class, abstract nên được đặt bằng chữ cái viết hoa theo quy tắc ***`CamelCase`***.
   - Tên class nên là danh từ hoặc cụm từ miêu tả đúng chức năng và mục đích của class.
+  - Đối với các class abstract, thường có thêm tiền tố "Abstract" hoặc "Base". Ví dụ: PersonAbstract, AnimalAbstract.
+  - Đối với các Trait, thường có thêm tiền tố "Trait". Ví dụ: MyTrait.
 
 <br/>
     
@@ -19,6 +21,10 @@ Tất cả phải được viết bằng tiếng Anh
   - Tên property nên miêu tả thuộc tính của đối tượng.
 
 <br/>
+
+4. Interface:
+  - Với interface, thường nên sử dụng các tính từ hoặc các trạng từ để đặt tên, bởi vì interface thường đại diện cho một tập hợp các phương thức hoặc thuộc tính chung, mà các class có thể triển khai. Ví dụ: Serializable, Comparable, Runnable,...
+
 
 
 Ví dụ
